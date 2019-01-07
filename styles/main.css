@@ -4,11 +4,16 @@ body {
 
 body nav{
 	background: #999;
-	display:inline;
-	margin: 0;
+	//display:inline;
+	//margin: 0;
 	padding: 10px 10px;
 }
-nody nav ul li{
+body nav ul{
+	margin:0;
+	displa:inline;
+}
+body nav ul li{
+	background: #999;
 	display: inline-block;
 	list-style-type: none;
 }
