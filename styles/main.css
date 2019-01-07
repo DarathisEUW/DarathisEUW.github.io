@@ -1,19 +1,56 @@
 body {
 	font-family: arial;
+	padding: 0;
+	margin: 0;
+	background: black;
 }
 
-body nav{
+/* Navigational bar css for all pages */
+.NavigationBar{
+	display: inline;
 	background: #999;
-	//display:inline;
-	//margin: 0;
+}
+
+.NavigationBar h1{
+	margin: 0;
+	background: #999;
+	padding: 10px 20px;
+	text-align: center;
+}
+.NavigationBar ul{
+	margin: 0;
 	padding: 10px 10px;
-}
-body nav ul{
-	margin:0;
-	displa:inline;
-}
-body nav ul li{
 	background: #999;
-	display: inline-block;
+	text-align: center;
+}
+.NavigationBar ul li{
+	display: inline;
+	background: #999;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+/* Pages contents */
+.PageContents{
+}
+.PageContents ul{
+	align: center;
+}
+.PageContents ul li{
+	background: #999;
+	padding: 1% 1% 1% 1%; /*10px 10px 10px 10px;*/
+	margin: 1% 1% 1% 1%;
+	align: center;
+	float: left;
 	list-style-type: none;
+	max-width: 33%;
+	max-height: 50%;
+	
+	position: relative;
+	display: block;
+	overflow: auto;
+}
+.PageContents ul li .PageContents{
+	padding: 5px 5px 5px 5px;
+	text-align: left;
 }
