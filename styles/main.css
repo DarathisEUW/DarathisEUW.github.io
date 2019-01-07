@@ -4,6 +4,11 @@ body {
 
 body nav{
 	background: #999;
-	display:inline-block;
+	display:inline;
+	margin: 0;
 	padding: 10px 10px;
+}
+nody nav ul li{
+	display: inline-block;
+	list-style-type: none;
 }
