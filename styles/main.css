@@ -30,27 +30,75 @@ body {
 	text-align: center;
 }
 
-/* Pages contents */
-.PageContents{
+/* Dynamic scaling floating */
+.DynamicArranging{
 }
-.PageContents ul{
+.DynamicArranging ul{
 	align: center;
 }
-.PageContents ul li{
+.DynamicArranging ul li{
 	background: #999;
 	padding: 1% 1% 1% 1%; /*10px 10px 10px 10px;*/
 	margin: 1% 1% 1% 1%;
 	align: center;
 	float: left;
 	list-style-type: none;
-	max-width: 33%;
-	max-height: 50%;
+	
+	max-width: 500px;
+	/*
+	max-height: 66%;
+	min-width: 25%;
+	*/
 	
 	position: relative;
 	display: block;
 	overflow: auto;
 }
-.PageContents ul li .PageContents{
+.DynamicArranging ul li .BlockText{
 	padding: 5px 5px 5px 5px;
+	text-align: left;
+}
+
+/* Centered vertical stack allignment */
+.CenteredStack{
+}
+.CenteredStack ul{
+	align: center;
+	padding: 0;
+}
+.CenteredStack ul li{
+	background: #999;
+	/*padding: 1% 1% 1% 1%; 10px 10px 10px 10px;*/
+	margin: 1% 1% 1% 1%;
+	align: center;
+	list-style-type: none;
+	display: block;
+
+}
+.CenteredStack ul li .BlockText{
+	padding: 5px 5px 5px 5px;
+	text-align: left;
+}
+
+/* Static grid 2 by 2 across */
+.GridLayout{
+	
+}
+.GridLayout ul{
+	padding: 0;
+	max-width: 40%;
+	min-width: 25%;
+}
+.GridLayout ul li{
+	background: #999;
+	margin: 1% 1% 1% 1%;
+	align: center;
+	list-style-type: none;
+	display: block;
+	max-width: 40%;
+	min-width: 40;
+}
+.CenteredStack ul li .BlockText{
+		padding: 5px 5px 5px 5px;
 	text-align: left;
 }
