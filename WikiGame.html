@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<Link href="styles/main.css" rel="stylesheet" type="text/css" />
+
+	<head>
+		<title> Wiki Game </title>
+	</head>
+	<body>
+		<div class="NavigationBar">
+			<h1> Wiki Game </h1>
+			<ul>
+				<li> <a href="index.html">Home</a> </li>
+				<li> <a href="About.html">Contacts</a> </li>
+				<li> <a href="Projects.html">Projects</a> </li>
+				<li> Wiki Game </li>
+			</ul>
+		</div>
+		
+		<div class="SingleCenteredGroup">
+			<ul>
+				<li>
+					<p class="BlockText"> Click the button to get text! </p>
+				</li>
+				<li>
+					<button type="button" onclick="WikiTextButtonCall()"> Click Me!</button>
+				</li>
+				<li>
+					<p id="WikiText"> Text from page not found! </p>
+				</li>
+			</ul>
+		</div>
+
+
+	<script>
+	
+	var randomWikiUrl = "https://en.wikipedia.org/wiki/Special:Random";
+	
+	function WikiTextButtonCall(){
+		document.getElementById("WikiText").innerHTML = "hi";
+	}
+	</script>
+
+	</body>
+</html>

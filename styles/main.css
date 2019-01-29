@@ -102,3 +102,17 @@ body {
 		padding: 5px 5px 5px 5px;
 	text-align: left;
 }
+
+/* Single Col in Center of screen vert*/
+.SingleCenteredGroup{}
+.SingleCenteredGroup ul {
+	position:fixed;
+	top: 25%;
+	left: 25%;
+	background: #999;
+	list-style-type: none;
+	padding: 5px 5px 5px 5px;
+}
+.SingleCenteredGroup ul li {
+	padding: 5px 5px 5px 5px;
+}
